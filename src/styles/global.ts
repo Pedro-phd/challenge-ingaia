@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    background:#1D1D1D;
   }
 
   html, body, #__next {
@@ -16,6 +17,9 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
+    background-image: url("https://i.imgur.com/eZ0s5jL.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 `
