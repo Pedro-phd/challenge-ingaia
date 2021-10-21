@@ -13,7 +13,8 @@
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prettier": "prettier --write \"./**/*.{ts,tsx,json}\""
   },
   "lint-staged": {
     "src/**/*": [
@@ -22,6 +23,9 @@
     ]
   },
   "dependencies": {
+    "@apollo/client": "^3.4.16",
+    "@types/graphql": "^14.5.0",
+    "graphql": "^15.6.1",
     "next": "10.2.3",
     "next-pwa": "^5.2.21",
     "react": "17.0.2",
